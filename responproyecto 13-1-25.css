@@ -1,0 +1,361 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+
+@font-face {
+    font-family: 'brandon';
+    src: url(/Font/Brandon_thin.otf);
+
+    font-family: 'regal';
+    src: url(/Font/PFRegalDisplayPro-Regular.ttf);
+    
+    font-family: 'winter';
+    src: url(/Font/Winter.otf);
+    }
+ 
+    .regal {font-family: regal;
+    }
+    .brandon {
+        font-family: brandon;
+    }
+
+    .winter { font-family: winter;
+
+    }
+
+
+@media (max-width: 400px) 
+
+{
+    body{overflow-x: hidden;}
+
+/*Nav*/        
+    nav{   
+         #Logo {display: none;}
+        background-color: transparent;
+
+        
+            
+        
+    .lupamobile {
+
+        display: inline;
+        position:absolute;
+        border:solid 1px white;
+        border-radius: 50%;
+        padding: 15px;
+        top: 15px;
+        margin-left:5%;
+       
+       }   
+         
+         
+    
+        .links{
+                 
+            grid-template-columns: 1fr;   
+                               
+            .idiomas{
+                
+                grid-template-columns: 1fr;
+                justify-content: right;
+                   
+                .menu{
+                    margin-right: 13%;
+                
+                }     
+                           
+                a{   
+                display: none; 
+                               
+                    }
+                    
+                }
+
+            .registro{
+                    display: none;
+
+                
+                }
+            }
+        }
+/*Fondo*/
+
+    .imgppl{display: none;
+
+    }
+    .fondomobil{
+     display:inline;
+     border: none;
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     align-content: center;
+     margin: none;
+     object-fit: cover;
+                
+    }
+        
+    .contbuscador{ 
+        margin-left: 1%;
+        top: 105x;
+        padding: 5px 2px 5px 3px;
+        left: 6%;
+    
+    .lupita{display: none;}
+  
+
+    
+ 
+    .lupamobile{
+    display: none;   
+           
+    }
+              }
+
+    .idiomas{
+    display: grid;
+    
+    .menu{ 
+   
+    font-size: 10px;
+    
+    justify-self: end;
+    }
+}
+
+    #redes
+{
+
+display: none;
+
+}
+        
+#titulos{
+
+  justify-content: center;
+  margin-left: 3%;
+  padding: 10px 1px;
+  
+ img {
+    display: none;
+     }
+  
+     .gpp {
+        font-size: 30px;
+        line-height: 10px;
+        padding-bottom: 25px;
+        color: #b4b7b7;
+            }   
+
+         
+        .gpg {
+        font-size: 40px;
+        line-height: 10px;
+        color: #b4b7b7;
+            }
+ a { padding: 17px 90px;
+    
+ }
+
+  }
+    
+  .conline {
+    bottom: 20px;
+    margin-left: 34%;
+
+  }
+  
+   /*galeria pequeña*/
+
+        .secciongal {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right:30px; 
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        padding-bottom:50px;
+    
+        .bloqueuno {
+     .textouno{ display: none;}
+     .textodos{ display: none;}
+    .botones{display: none;}
+    .anuncios{ display: none;}
+    .primera {display: none;}
+    .segunda {grid-column: span 9;}
+    .tercera {grid-column: span 3;}
+        }
+    .bloquedos{
+    
+        .botones{
+            display: none; }
+         
+       .orange{display: none;
+        }
+        .black{display: none;}
+        }
+     }
+     .contenedorblanco {
+        display: none;
+     }
+
+/*Galeria Principal*/
+
+   
+        .orangeppl{
+            display: none;
+         }
+         
+            
+        
+        .descrip{
+            display: none;
+        }
+        .galeriadesk {
+            display: none;
+
+        }
+            
+         
+        .developments , .orangeresp
+         {
+             display: block;
+             text-align: left;
+             display: block;
+             
+             
+            
+         }
+        
+         .developments {
+            font-size: 50px;
+            font-weight: lighter;
+             width: 390;
+             size: 25px;
+             line-height: 45PX;
+
+        }
+        .orangeresp{
+            color: orange;
+            font-size: 25px;
+            font-weight: lighter;
+            line-height: 45px;
+        }
+
+
+        .galeriafotos{
+        
+            object-fit: cover;
+            padding-left: 1px;
+            padding-right: 20px;
+            
+        }
+        
+        .galeriaresponsive{
+            
+            display: grid;
+            grid-template-columns: 1fr;  
+            gap: 20px; 
+            width: fit-content;
+            
+        } 
+        
+
+/*Footer*/
+
+ footer{
+    padding-top: 20px; 
+    object-fit: contain;
+
+    .gris{display: none;}
+
+    .negro {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        
+        .copyright{ 
+         display: none;
+                }
+
+        
+        .enlaces {
+
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding: 40PX;
+            
+            .medio { 
+                justify-self: baseline;
+                margin-top: 15px;
+                font-size: 15px;
+                font-weight: 390;
+                size: 35px;
+                color: #aaaa;
+                line-height: 45PX;
+
+            }
+            .separado {
+                margin-top: 0%;
+                      }
+                      
+            .primera {
+                height: fit-content;
+                justify-self: start;
+                grid-column: span 2;
+                font-weight: lighter;
+                line-height: 30px;
+                width: 100%;
+                font-size: 22px;
+                color: white;
+
+             }
+
+             .cuarta {
+            grid-column: span 2;
+            text-align: justify;  
+            padding-top: 30px;   
+            
+            .callcenter{display: none;
+
+            }
+            
+            .tel { 
+
+                width: 379;
+                height: 91px;
+                font: size 25px;
+                line-height: 25px;
+                font-weight: 20px;
+                padding-top: 60px;
+                gap: 30px;
+            }
+            .email {
+                width: 100px;
+                height: 43px;
+                color: #b4b4b4;
+                line-height: 40px;
+                font-weight: 150px;
+                font-size: 20px;
+                padding-top: 5px;              
+                
+            }
+
+             }
+
+
+                }
+                
+            }
+
+
+        }
+
+
+
+
+    }   
