@@ -121,9 +121,11 @@ a  {
         display: grid;
         grid-template-columns: repeat(6, 1fr);  
         gap: 15px;
-        margin-left: 47%;
+        margin-left: 54%;
+        margin-right: 50%;
         align-content: center;
-        margin-top: -58px;
+        transform: translateY(100%);
+        bottom: -170px;
         }
         
     
@@ -261,6 +263,7 @@ a  {
         width: 45px;
         justify-items: center;
         position: absolute; 
+        gap:20px ;
         top: 480px;
 
         
@@ -285,7 +288,7 @@ a  {
         #follow {
         transform: rotate(90deg);
         transition:transform 0.3s ease;
-        color:grey ;
+        color:grey;
         display: inline-block;
         margin-bottom: 20px;
         background-color: transparent;
